@@ -1,3 +1,7 @@
+/*--------------------------------*/
+/* Initial Setup */
+/*--------------------------------*/
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -5,35 +9,102 @@
   padding: 0;
 }
 
+*:focus {outline:none}
+
 html {
-  background-color: #EAE7DC;
-  color: #282828;
+  background-color: #ad93d2;
+  color: #FFFFFF;
   font-family: 'Abel', sans-serif;
   font-size: 20px;
   font-weight: 200;
   text-rendering: optimizeLegibility;
 }
 
+/*--------------------------------*/
+/* Nav Bar */
+/*--------------------------------*/
+
+nav * {
+  display: inline-block;
+  padding: 1%;
+}
+
+nav {
+  background-color: #3F2860;
+  border-bottom: 12px double #ad93d2;
+  height: 90px;
+}
+
+.logo {
+  box-sizing: content-box;
+  height: 40px;
+  width: 40px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 0.4em;
+}
+
+/*--------Back Button------------*/
+
+.back a {
+  background-color: #FA8B60;
+  border-bottom: 4px solid #f96f39;
+  border-radius: 10px;
+  color: #3F2860;
+  padding: 10px 25px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 1em;
+}
+
+.back a:hover {
+  border-bottom: 2px solid #f74c08;
+  border-top: 2px solid #f85e20;
+  background-color: #f85e20;
+}
+
+.back a:active {
+  border-bottom: 2px solid #ad3505;
+  border-top: 2px solid #ad3505;
+  background-color: #ad3505;
+}
+
+.calc-title {
+  color: #26364d;
+  margin: 0 auto;
+  width: 348px;
+}
+
+h3 {
+  padding-top: 2em;
+  text-align: center;
+}
+
+/*--------------------------------*/
+/* Quiz */
+/*--------------------------------*/
 
 hr {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  margin: 20px 0;
+  margin: 10px 0px 10px 0px;
 }
 
 .container {
-  border: 2px solid #E98074;
+  background-color: #3F2860;
+  border: 2px solid #EF6D3B;
   border-radius: 10px;
   height: 400px;
-  margin: 20px auto;
+  margin: 50px auto;
   padding: 10px 25px 25px 25px;
   width: 500px;
 }
 
 .container h1{
-  color: #E85A4F;
+  color: #90C5A9;
   font-family: 'Coiny', cursive;
   font-size: 1.5em;
   text-align: center;
@@ -41,25 +112,51 @@ hr {
 
 .container #question {
   font-size: 1.2em;
-  margin-top: 50px;
+  margin-top: 20px;
+  text-align: center;
 }
+
+/*--------------------Buttons--------------------*/
 
 .button {
   margin-top: 30px;
 }
 
+.button:focus {
+  outline: 0;
+}
+
 #btn0, #btn1, #btn2, #btn3 {
-  background-color: #E98074;
-  border: 1px solid #E98074;
+  background-color: #FA8B60;
+  border: 2px solid #EF6D3B;
   border-radius: 10px;
-  color: #fffff;
+  color: #3F2860;
+  cursor: pointer;
+  font-size: 0.7em;
+  font-weight: bold;
   margin: 10px;
   padding: 10px;
   width: 200px;
 }
 
-footer {
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+  background-color: #f96f39;
+  color: #737373;
+}
 
+#btn0:active, #btn1:active, #btn2:active, #btn3:active {
+  background-color: #df4407;
+  border-color: #f74c08;
+  color: #FFFFFF;
+  outline: none;
+}
+
+/*--------------------------------*/
+/* Footer */
+/*--------------------------------*/
+
+footer {
+  color: #90C5A9;
   text-align: center;
 }
 
