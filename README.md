@@ -23,6 +23,8 @@ To run my application simply clone the project and run the html file.
 
 The object of the game it to get a passing grade of at least 70%. 
 
+<img src="icons/image2.png">
+
 There will be four choices with each question. Select the correct answer to the best of your 
 ability. As you progress through the quiz, a score will calculated in the background
 ultimately resulting in a final score after the last question.
