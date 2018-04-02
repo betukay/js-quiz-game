@@ -1,4 +1,4 @@
-# Javascript Quiz-Game
+# Javascript Quiz Game
 Multiple choice quiz game
 
 <img src="icons/image1.png">
