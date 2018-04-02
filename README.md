@@ -4,7 +4,7 @@ Multiple choice quiz game
 ## Description
 
 How's your grade school trivia? Take a gander at my app and see if you still have what
-it takes to answer these 10 questions on classroom subjects that stump even the brightest
+it takes to answer these ten questions on classroom subjects that stump even the brightest
 students.
 
 ## Built With
@@ -19,8 +19,11 @@ To run my application simply clone the project and run the html file.
 
 ## Usage
 
-As the end-user progresses, through the quiz a score will caculated in the background 
-to ultimately be presented to them after the last question.
+The object of the game it to get a passing grade of at least 70%. 
+
+There will be four choices with each question. Select the correct answer to the best of your 
+ability. As you progress through the quiz, a score will caculated in the background to 
+ultimately present you with a final score after the last question.
 
 ## License
 
