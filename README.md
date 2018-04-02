@@ -1,6 +1,8 @@
 # Javascript Quiz-Game
 Multiple choice quiz game
 
+<img src="icons/image1.png">
+
 ## Description
 
 How's your grade school trivia? Take a gander at my app and see if you still have what
