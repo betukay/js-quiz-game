@@ -21,7 +21,7 @@ To run my application simply clone the project and run the html file.
 
 ## Usage
 
-The object of the game it to get a passing grade of at least 70%. 
+The object of the game is to get a passing grade of at least 70%. 
 
 <img src="icons/image2.png">
 
